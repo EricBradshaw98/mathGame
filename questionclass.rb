@@ -1,6 +1,6 @@
 #class definition, create the question in here
 
-class Question
+class QuestionClass
   attr_reader :answer, :question
 
 
@@ -14,11 +14,11 @@ class Question
   end
 end
 
-question = Question.new
-puts question.question  # Output the generated question
-user_answer = gets.chomp.to_i  # Get user's answer
-if user_answer == question.answer
-  puts "Correct!"
-else
-  puts "Incorrect. The correct answer is #{question.answer}."
-end
+#question = Question.new
+#puts question.question  # Output the generated question
+#user_answer = gets.chomp.to_i  # Get user's answer
+#if user_answer == question.answer
+  #puts "Correct!"
+#else
+  #puts "Incorrect. The correct answer is #{question.answer}."
+#end
